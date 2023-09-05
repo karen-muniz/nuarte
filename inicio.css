@@ -1,0 +1,42 @@
+body{
+    background-image: url("/cadastro/img/tela_fundo_geral.png");
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffff;
+    margin-top: 50px;
+    font-size: 6vmax;
+}
+
+.actions{
+    background-image: url("/cadastro/img/fundo_login.png");
+    width: 100vh;
+    height: 60vh;
+    margin-left: 53vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    width: 12vh;
+    height: 12vh;
+    margin-top: 5vh;
+    transition: all 0.2s;
+
+}
+
+.actions > div > a > .icons:hover{
+    transform: scale(1.12);
+    transition: all 0.2s;
+}
+
+.legendas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
